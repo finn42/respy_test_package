@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+respy_test.egg-info/PKG-INFO
+respy_test.egg-info/SOURCES.txt
+respy_test.egg-info/dependency_links.txt
+respy_test.egg-info/top_level.txt
