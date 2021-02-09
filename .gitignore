@@ -1,3 +1,5 @@
 .DS_Store
 dist/
 .pypirc
+updating_instructions.txt
+~setup.cfg

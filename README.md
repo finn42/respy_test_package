@@ -1,13 +1,13 @@
 
 # Respiration recording analysis toolbox
 
-This library provides functions to evaluate single belt chest expansion recordings of human adult respiration during passive tasks (standing still, sitting and listening to music, etc.) It includes features to find and describe features of individual breaths and to evaluate important phases of the respiratory cycle.
+This library provides python functions to evaluate single belt chest expansion recordings of human adult respiration during passive tasks (standing still, sitting and listening to music, etc.) It includes functions to find and describe features of individual breaths and to evaluate important phases of the respiratory cycle.
 
 Developed by Finn Upham 2021 
 
 This is not suitable for the evaluation of respiration during high intensity excertions, or for non-human animals, or for respiration measurements taken with other types of sensors (flow meters, double belts).
 
-This toolbox is written in python 3.0.9 with the following dependencies:
+This toolbox is written in python 3.9 with the following dependencies:
 import time
 import datetime as dt
 import math
