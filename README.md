@@ -19,6 +19,10 @@ from scipy.interpolate import interp1d
 
 TODO add versions, format like an adult
 
+## Installation
+Add the package with pip
+> pip install -i https://test.pypi.org/simple/ respy-test-package
+
 ## Example respiration analysis
 
 Find demo application this github account Finn42
