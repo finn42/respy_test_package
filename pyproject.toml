@@ -1,6 +1,22 @@
 [build-system]
-requires = [
-    "setuptools>=42",
-    "wheel"
-]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
+
+[respy]
+name = "test_respy_Finn42"
+version = "0.0.2"
+authors = [
+  { name="Finn Upham", email="finn.upham@gmail.com" },
+]
+description = "A set of function for analysis of single belt respiration measurements"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/finn42/respy_test_package"
+"Bug Tracker" = "https://github.com/finn42/respy_test_package/issues"

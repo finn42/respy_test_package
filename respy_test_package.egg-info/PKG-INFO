@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: respy-test-package
+Version: 0.0.2
+Summary: A library to evalute single belt respiration recordings
+Home-page: https://github.com/finn42/respy_test_package.git
+Author: Finn Upham
+Author-email: finn.upham@gmail.com
+License: UNKNOWN
+Description: 
+        # Respiration recording analysis toolbox
+        
+        This library provides python functions to evaluate single belt chest expansion recordings of human adult respiration during passive tasks (standing still, sitting and listening to music, etc.) It includes functions to find and describe features of individual breaths and to evaluate important phases of the respiratory cycle.
+        
+        Developed by Finn Upham 2021 
+        
+        This is not suitable for the evaluation of respiration during high intensity excertions, or for non-human animals, or for respiration measurements taken with other types of sensors (flow meters, double belts).
+        
+        This toolbox is written in python 3.9 with the following dependencies:
+        import time
+        import datetime as dt
+        import math
+        import numpy as np 
+        import pandas as pd
+        from scipy.signal import butter,filtfilt
+        from scipy import interpolate
+        from scipy.interpolate import interp1d
+        
+        TODO add versions, format like an adult
+        
+        ## Example respiration analysis
+        
+        Find demo application this github account Finn42
+        should be up soon
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
